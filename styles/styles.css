@@ -1,0 +1,36 @@
+.AboutStr{
+    width: 50%;
+    height: 100vh;
+    float: left;
+}
+.Title{
+    color: rgb(250, 79, 79);
+    
+}
+.footer{
+    width: 100%;
+    height: 100px;
+    background-color: blue;
+    position: relative;
+    top: 900px;
+    
+  
+}
+#AboutT{
+    position: relative;
+    margin-left: 150px;
+    margin-right: 1px;
+    top: 200px;
+    font-size: 150px;
+
+    
+}
+#AboutB{
+    margin-left: 150px;
+    margin-right: 120px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    top: 100px;
+    position: relative;
+    color: rgb(255, 255, 255);
+}
