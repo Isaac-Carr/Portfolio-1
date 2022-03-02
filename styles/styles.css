@@ -8,6 +8,7 @@
 .Title{
     color: rgb(250, 79, 79);
     
+    
 }
 .footer{
     width: 100%;
@@ -23,7 +24,7 @@
 #Intro{
     height: 400px;
     width: 100%;
-    background-color: red;
+    background-color: rgb(69, 78, 72);
     position: relative;
     
     
@@ -31,7 +32,7 @@
 #Port{
     height: 800px;
     width: 100%;
-    background-color: rgb(0, 255, 85);
+    background-color: rgb(0, 0, 0);
     position: relative;
     z-index: 2;
     top: -50px;
@@ -46,7 +47,7 @@
     background-color: rgb(234, 0, 255);
     position: relative;
     z-index: 2;
-    top: 760px;
+    top: 700px;
     transform: skew(0, -2deg);
     -ms-transform: skew(0, -2deg);
     -moz-transform: skew(0, -2deg);
@@ -84,7 +85,7 @@
     width: 100%;
     background-color: rgb(234, 0, 255);
     position: relative;
-    top: -250px;
+    top: -300px;
     z-index: 1;
     transform: skew(0, 2deg);
     -ms-transform: skew(0, 2deg);
@@ -95,7 +96,7 @@
 #PortLower{
     height: 300px;
     width: 100%;
-    background-color: rgb(0, 255, 85);
+    background-color: rgb(0, 0, 0);
     position: relative;
     transform: skew(0, -2deg);
     -ms-transform: skew(0, -2deg);
@@ -109,6 +110,7 @@
     text-align: center;
     top: 80px;
     position: relative;
+    color: white;
 }
 #AboutText{
     position: relative;
@@ -123,4 +125,11 @@
 *{
     margin: 0;
     padding: 0;
+}
+
+#PortTitle{
+    font-size: 50px;
+    text-align: center;
+    top: 80px;
+    position: relative;
 }
