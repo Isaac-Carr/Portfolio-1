@@ -55,6 +55,7 @@
     -ms-transform: skew(0, -2deg);
     -moz-transform: skew(0, -2deg);
     -o-transform: skew(0, -2deg);
+    
 
 }
 #AboutT{
@@ -74,6 +75,7 @@
     top: 200px;
     position: relative;
     color: rgb(255, 255, 255);
+    
 }
 #footerH{
     height: 300px;
@@ -133,35 +135,73 @@
 }
 
 #PortTitle{
-    font-size: 50px;
+    font-size: 40px;
     text-align: center;
     top: 80px;
     position: relative;
+    transform: skew(0, -2deg);
+    -ms-transform: skew(0, -2deg);
+    -moz-transform: skew(0, -2deg);
+    -o-transform: skew(0, -2deg);
 }
 #Mail{
     position: relative;
-    top: -800px;
+    top: -850px;
     left: 300px;
 
 }
 #ContactPos{
     position: relative;
-    top: -900px;
-    font-size: 50px;
+    top: -950px;
+    font-size: 40px;
     text-align: center;
+    transform: skew(0, 2deg);
+    -ms-transform: skew(0, 2deg);
+    -moz-transform: skew(0, 2deg);
+    -o-transform: skew(0, 2deg);
 }
 #Linkedin{
     position: relative;
-    top: -800px;
+    top: -850px;
     left: 500px;
 }
 #Facebook{
     position: relative;
-    top: -800px;
+    top: -850px;
     left: 1000px;
 }
 #Github{
     position: relative;
-    top: -800px;
+    top: -850px;
     left: 1100px;
+}
+#socials{
+    transform: skew(0, 2deg);
+    -ms-transform: skew(0, 2deg);
+    -moz-transform: skew(0, 2deg);
+    -o-transform: skew(0, 2deg);
+}
+#Navbar{
+    position:fixed;
+    width: 100%;
+    height: 80px;
+    background-color:rgb(95, 123, 250);
+    z-index: 5;
+    opacity: 70%;
+
+}
+.NavFont{
+    color: white;
+    font-family:'Times New Roman', Times, serif ;
+    opacity: none;
+    float: left;
+    position: relative;
+    font-size: 30px;
+    top: 30%;
+    text-decoration: none;
+
+}
+.NavFont:hover{
+    color: rgb(250, 79, 79);
+    text-decoration: underline;
 }
