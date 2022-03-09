@@ -8,6 +8,14 @@ p{
 body{
     background-color: rgb(255, 0, 0);
 }
+.SectionSep{
+    background-color: #f24848;
+    position: relative;
+    height: 1px;
+    border: none;
+    width: 90%;
+    left: 5%;
+}
 /* Introduction */
 #Intro{
     height: 100vh;
@@ -56,10 +64,12 @@ left: 800px;
 #FacebookIntro{
     position: relative;
     left: 380px;
+    text-decoration: none;
 }
 #LinkedinIntro{
     position: relative;
     left: 700px;
+    text-decoration: none;
 }
 #GithubIntro{
     position: relative;
@@ -71,14 +81,42 @@ left: 800px;
     left: 640px;
     font-size: 30px;
     color: white;
-    
+}
+#Intro-About{
+top: 548px;
 }
 /* About */
 #about{
     height: 100vh;
     width: 100%;
-    background-color: rgb(25, 8, 255);
+    background-color: #3aafa9ff
     position: relative;
+}
+.AboutSec{
+    width: 50%;
+    float: left;
+    height: 100%;
+    position: relative;
+
+    
+}
+#AboutTitle{
+    position: relative;
+    margin-left: 150px;
+    margin-right: 1px;
+    top: 200px;
+    font-size: 120px;
+    color: #172758;
+}
+#AboutText{
+    margin-left: 150px;
+    margin-right: 120px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    top: 200px;
+    position: relative;
+    color: rgb(255, 255, 255);
+    
 }
 
 /* Portfolio */
