@@ -1,13 +1,15 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+
 }
 p{
     color: white;
 }
-body{
-    background-color: rgb(255, 0, 0);
-}
+
 .SectionSep{
     background-color: #f24848;
     position: relative;
@@ -15,6 +17,7 @@ body{
     border: none;
     width: 90%;
     left: 5%;
+    z-index: 5;
 }
 /* Introduction */
 #Intro{
@@ -63,33 +66,34 @@ left: 800px;
 }
 #FacebookIntro{
     position: relative;
-    left: 380px;
+    left: 31%;
     text-decoration: none;
 }
 #LinkedinIntro{
     position: relative;
-    left: 700px;
+    left: 41%;
     text-decoration: none;
 }
 #GithubIntro{
     position: relative;
-    left: 1020px;
+    left: 51%;
 }
 #EmailIntro{
     position: relative;
     top: 500px;
-    left: 640px;
+    left: 41%;
     font-size: 30px;
     color: white;
 }
 #Intro-About{
-top: 548px;
+    position: absolute;
+    top: 100vh;
 }
 /* About */
 #about{
     height: 100vh;
     width: 100%;
-    background-color: #3aafa9ff
+    background-color: #3aafa9ff;
     position: relative;
 }
 .AboutSec{
@@ -131,8 +135,126 @@ top: 548px;
 #contact{
     height: 100vh;
     width: 100%;
-    background-color: rgb(35, 252, 7);
+    background-color: #3aafa9ff;
     position: relative;
 }
+.ContactFormHead{
+    position: relative;
+    color: #172758;
+    font-size: 86px;
+    left: 30%;
+    top: 100px;
+}
+.ContactHeadText{
+    position: relative;
+    font-size: 30px;
+    top: 150px;
+    left: 35%;
+}
+.FormField{
+    border: solid;
+    border-color: #172758;
+    border-radius: 5px;
+    border: 0.5;
+    color: #172758;
+    background-color: #9de9f7;
+    width: 350px;
+    height: 40px;
+    font-size: 37;
+}
+#FormName{
+    position:absolute;
+    top: 350px;
+    left: 25%;
+}
+#FormEmail{
+    position: absolute;
+    top: 452px;
+    left: 25%;
+}
+.FormMessage{
+    position: absolute;
+    border: solid;
+    border-color: #172758;
+    border-radius: 5px;
+    border: 0.5;
+    color: #172758;
+    background-color: #9de9f7;
+    width: 350px;
+    height: 142px;
+    font-size: 37;
+    top: 350px;
+    left: 50%;
+}
+/* Footer */
+#footer{
+    background-color: #172758;
+    width: 100%;
+    height: 100px;
+    position: relative;
+    color: white;
+    font-size: 22px;
+}
 
+#AboutNavF{
+    position: relative;
+left: 70%;
+top: 40px;
+color: white;
+text-decoration: none;
+overflow-x:visible;
 
+}
+#PortNavF{
+    position: relative;
+    left: 75%;
+    top: 40px;
+    color: white;
+    text-decoration: none;
+}
+#ConNavF{
+    position: relative;
+    left: 80%;
+    top: 40px;
+    color: white;
+    text-decoration: none;
+}
+#CopyrightF{
+    position: absolute;
+    top: 40px;
+    left: 10%;
+    font-size: ;
+    color: rgb(255, 255, 255);
+}
+#SocialCon{
+    position: relative;
+    top: 500px;
+    width: 100%;
+}
+#FacebookCon{
+    position: relative;
+    left: 31%;
+    text-decoration: none;
+}
+#LinkedinCon{
+    position: relative;
+    left: 41%;
+    text-decoration: none;
+}
+#GithubCon{
+    position: relative;
+    left: 51%;
+}
+#ScrollUp {
+    position: absolute;
+	width: 0;
+	height: 0;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-bottom: 50px solid #172758;
+    border-radius: 5px;
+    left: 45%;
+    top: 94%;
+    overflow: hidden;
+    
+}
