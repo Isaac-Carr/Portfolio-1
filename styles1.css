@@ -19,6 +19,58 @@ p{
     left: 5%;
     z-index: 5;
 }
+/* NavBar */
+.NavBar{
+    background-color: #172758;
+    position: fixed;
+    width: 100%;
+    height: 70px;
+    top: 0%;
+    z-index: 10;
+    color: white;
+    font-size: 22px;
+    text-decoration: none;
+}
+#IntroNavBar{
+    position: relative;
+    left: 13%;
+    top: 20px;
+    color: white;
+    text-decoration: none;
+}
+#IntroNavBar:hover{
+    color: #f24848;
+}
+#AboutNavBar{
+    position: relative;
+    left: 20%;
+    top: 20px;
+    color: white;
+    text-decoration: none;
+}
+#AboutNavBar:hover{
+    color: #f24848;
+}
+#PortNavBar{
+    position: relative;
+    left: 27%;
+    top: 20px;
+    color: white;
+    text-decoration: none;
+}
+#PortNavBar:hover{
+    color:#f24848
+}
+#ConNavBar{
+    position: relative;
+    left: 34%;
+    top: 20px;
+    color: white;
+    text-decoration: none;
+}
+#ConNavBar:hover{
+    color: #f24848;
+}
 /* Introduction */
 #Intro{
     height: 100vh;
@@ -85,6 +137,9 @@ left: 800px;
     font-size: 30px;
     color: white;
 }
+#EmailIntro:hover{
+    color: #f24848;
+}
 #Intro-About{
     position: absolute;
     top: 100vh;
@@ -124,13 +179,26 @@ left: 800px;
 }
 
 /* Portfolio */
+#About-Port{
+    position: absolute;
+}
 #Port{
-    height: 100vh;
+    height: 50vh;
     width: 100%;
-    background-color: rgb(205, 5, 255);
+    background-color: #3aafa9ff;
     position: relative;
 }
+#PortTitle{
+    color: #172758;
+    font-size: 66px;
+    position: relative;
+    left: 43%;
+}
 
+#Port-Cont{
+    position: absolute;
+    
+}
 /* Contact */
 #contact{
     height: 100vh;
@@ -195,7 +263,17 @@ left: 800px;
     color: white;
     font-size: 22px;
 }
-
+#IntroNavF{
+    position: relative;
+    left: 65%;
+    top: 40px;
+    color: white;
+    text-decoration: none;
+    overflow-x:visible;
+}
+#IntroNavF:hover{
+    color: #f24848;
+}
 #AboutNavF{
     position: relative;
 left: 70%;
@@ -203,7 +281,9 @@ top: 40px;
 color: white;
 text-decoration: none;
 overflow-x:visible;
-
+}
+#AboutNavF:hover{
+color: #f24848;
 }
 #PortNavF{
     position: relative;
@@ -212,12 +292,18 @@ overflow-x:visible;
     color: white;
     text-decoration: none;
 }
+#PortNavF:hover{
+    color: #f24848;
+}
 #ConNavF{
     position: relative;
     left: 80%;
     top: 40px;
     color: white;
     text-decoration: none;
+}
+#ConNavF:hover{
+    color: #f24848;
 }
 #CopyrightF{
     position: absolute;
@@ -256,5 +342,7 @@ overflow-x:visible;
     left: 45%;
     top: 94%;
     overflow: hidden;
-    
+}
+#ScrollUp:hover{
+    border-bottom: 50px solid #f24848;
 }
