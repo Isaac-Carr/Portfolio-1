@@ -254,6 +254,28 @@ left: 800px;
     top: 350px;
     left: 50%;
 }
+.Submit{
+    border: solid;
+    border-color: #172758;
+    border-radius: 5px;
+    border: 0.5;
+    color: #172758;
+    background-color: #9de9f7;
+    width: 140px;
+    height: 50px;
+    font-size: 37;
+}
+#SubmitCon{
+    position: absolute;
+    top: 552px;
+    left: 43%;
+}
+#FormNo{
+    position: absolute;
+    top: 602px;
+    left:35%;
+    font-size: medium;
+}
 /* Footer */
 #footer{
     background-color: #172758;
@@ -309,7 +331,6 @@ color: #f24848;
     position: absolute;
     top: 40px;
     left: 10%;
-    font-size: ;
     color: rgb(255, 255, 255);
 }
 #SocialCon{
@@ -331,6 +352,7 @@ color: #f24848;
     position: relative;
     left: 51%;
 }
+/* https://www.w3schools.com/howto/howto_css_shapes.asp */
 #ScrollUp {
     position: absolute;
 	width: 0;
