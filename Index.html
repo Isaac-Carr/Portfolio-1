@@ -6,6 +6,65 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="styles1.css">
+    <style>
+        * {box-sizing: border-box;}
+        body {font-family: Verdana, sans-serif;
+        background-color: black;}
+        .myQuotes {display: none;}
+        
+        
+        /* Slideshow container */
+      
+        
+        /* Caption text */
+        .text{
+        font-size: 35px;
+        position: absolute;
+        top: 450px;
+        left: 800px;
+        color: white;
+        z-index: 6;
+        }
+        
+        /* Number text (1/3 etc) */
+        .numbertext {
+          color: #f2f2f2;
+          font-size: 12px;
+          padding: 8px 12px;
+          position: absolute;
+          top: 10;
+        }
+        
+        /* The dots/bullets/indicators */
+        
+        
+        .active {
+          background-color: #717171;
+        }
+        
+        /* Fading animation */
+        .fade {
+          -webkit-animation-name: fade;
+          -webkit-animation-duration: 5s;
+          animation-name: fade;
+          animation-duration: 5s;
+        }
+        
+        @-webkit-keyframes fade {
+          from {opacity: .4}  
+          to {opacity: 1}
+        }
+        
+        @keyframes fade {
+          from {opacity: .4} 
+          to {opacity: 1}
+        }
+        
+        /* On smaller screens, decrease text size */
+        @media only screen and (max-width: 300px) {
+          .text {font-size: 11px}
+        }
+        </style>
 </head>
 <body>
     <!-- NavBar -->
@@ -16,14 +75,100 @@
         <a href="#contact" id="ConNavBar">Contact</a>
 
     </div>
-    <!-- Introduction -->Protaku#0724
+    <!-- Introduction -->
     <div id="Intro">
     
         <div id="NameIntroLoc"><h1 class="IntroText">Hi, I'm <p class="NameIntrocolor">Isaac Carr</p></h1></div>
 
         <div id="JobTitle"><h1 class="IntroText">A Front End Developer</h1></div>
 
-        <p class="IntroQuote"><em>"Step By Step walk the thousand mile road"<br>- Miyamoto Musashi</em></p>
+        <div class="myQuotes fade">
+            
+            <p class="text">"Step By Step walk the thousand mile road" - <em>Miyamoto Musashi</em> </p>
+          </div>
+          
+          <div class="myQuotes fade">
+            
+            <p class="text">"You can fly even higher." - <em>Tobio Kageyama</em></p>
+          </div>
+          
+          <div class="myQuotes fade">
+            
+            
+            <p class="text">"He who would climb a ladder must begin at the bottom" - <em>Ittetsu Takeda</em></p>
+          </div>
+          <div class="myQuotes fade">
+            
+            
+            <p class="text">"Set Your Heart Ablaze" - <em>Kyojuro Rengoku</em></p>
+          </div>
+          <div class="myQuotes fade">
+            
+            
+            <p class="text">"Being weak is nothing to be ashamed of... Staying weak is!!" - <em>Fuegoleon Vermillion</em></p>
+          </div>
+          <div class="myQuotes fade">
+            
+            
+            <p class="text">“Today you are the defeated. Tomorrow what will you become?” - <em>Fuki Hibarida</em></p>
+          </div>
+          <div class="myQuotes fade">
+            
+            
+            <p class="text">"I am built upon the small things I do every day, and the end results are no more than a byproduct of that" - <em>Shinsuke Kita</em></p>
+          </div>
+          <div class="myQuotes fade">
+            
+            
+            <p class="text">"Its such a wate to pass up the oppurtunity to learn something new" - <em>Mineo Nishinoya</em></p>
+          </div>
+          <div class="myQuotes fade">
+            
+            
+            <p class="text">"It's no fun if you don't try other options once you know they exist." - <em>Yuu Nishinoya</em></p>
+          </div>
+          <div class="myQuotes fade">
+            
+            
+            <p class="text">“When you give up, that’s when the game ends.” - <em>Mitsuyoshi Anzai</em></p>
+          </div>
+          
+         
+          <br>
+          
+          <div style="text-align:center">
+            <span class="dot"></span> 
+            <span class="dot"></span> 
+            <span class="dot"></span> 
+            <span class="dot"></span> 
+            <span class="dot"></span> 
+            <span class="dot"></span> 
+            <span class="dot"></span> 
+            <span class="dot"></span> 
+            <span class="dot"></span> 
+            <span class="dot"></span> 
+          </div>
+          <script>
+              var slideIndex = 0;
+              showSlides();
+              
+              function showSlides() {
+                var i;
+                var slides = document.getElementsByClassName("myQuotes");
+                var dots = document.getElementsByClassName("dot");
+                for (i = 0; i < slides.length; i++) {
+                  slides[i].style.display = "none";  
+                }
+                slideIndex++;
+                if (slideIndex > slides.length) {slideIndex = 1}    
+                for (i = 0; i < dots.length; i++) {
+                  dots[i].className = dots[i].className.replace(" active", "");
+                }
+                slides[slideIndex-1].style.display = "block";  
+                dots[slideIndex-1].className += " active";
+                setTimeout(showSlides, 5000); // Change image every 2 seconds
+              }
+              </script>
 
         <hr class="RedLine"> 
 <!-- https://www.tutorialspoint.com/How-to-use-an-image-as-a-link-in-HTML#:~:text=To%20use%20image%20as%20a,add%20the%20height%20and%20width. -->
