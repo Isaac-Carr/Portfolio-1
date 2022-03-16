@@ -43,7 +43,7 @@ p{
 }
 #AboutNavBar{
     position: relative;
-    left: 20%;
+    left: 19%;
     top: 20px;
     color: white;
     text-decoration: none;
@@ -53,7 +53,7 @@ p{
 }
 #PortNavBar{
     position: relative;
-    left: 27%;
+    left: 26%;
     top: 20px;
     color: white;
     text-decoration: none;
@@ -63,12 +63,22 @@ p{
 }
 #ConNavBar{
     position: relative;
-    left: 34%;
+    left: 33%;
     top: 20px;
     color: white;
     text-decoration: none;
 }
 #ConNavBar:hover{
+    color: #f24848;
+}
+#ResumeNavBar{
+    position: relative;
+    left: 39%;
+    top: 20px;
+    color: white;
+    text-decoration: none;
+}
+#ResumeNavBar:hover{
     color: #f24848;
 }
 /* Introduction */
@@ -287,7 +297,7 @@ left: 800px;
 }
 #IntroNavF{
     position: relative;
-    left: 65%;
+    left: 60%;
     top: 40px;
     color: white;
     text-decoration: none;
@@ -298,7 +308,7 @@ left: 800px;
 }
 #AboutNavF{
     position: relative;
-left: 70%;
+left: 65%;
 top: 40px;
 color: white;
 text-decoration: none;
@@ -309,7 +319,7 @@ color: #f24848;
 }
 #PortNavF{
     position: relative;
-    left: 75%;
+    left: 70%;
     top: 40px;
     color: white;
     text-decoration: none;
@@ -319,12 +329,22 @@ color: #f24848;
 }
 #ConNavF{
     position: relative;
-    left: 80%;
+    left: 75%;
     top: 40px;
     color: white;
     text-decoration: none;
 }
 #ConNavF:hover{
+    color: #f24848;
+}
+#ResumeNavF{
+    position: relative;
+    left: 80%;
+    top: 40px;
+    color: white;
+    text-decoration: none;
+}
+#ResumeNavF:hover{
     color: #f24848;
 }
 #CopyrightF{
