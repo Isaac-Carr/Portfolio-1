@@ -161,20 +161,24 @@ left: 800px;
     background-color: #3aafa9ff;
     position: relative;
 }
-.AboutSec{
+.AboutSec1{
     width: 40%;
     float: left;
     height: 100%;
     position: relative;
-
-    
+}
+.AboutSec2{
+    width: 60%;
+    float: left;
+    height: 100%;
+    position: relative;
 }
 #AboutTitle{
     position: relative;
     margin-left: 150px;
     margin-right: 1px;
     top: 200px;
-    font-size: 120px;
+    font-size: 150px;
     color: #172758;
 }
 #AboutText{
