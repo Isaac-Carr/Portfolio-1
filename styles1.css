@@ -146,13 +146,13 @@ left: 800px;
 }
 /* About */
 #about{
-    height: 100vh;
+    height: 80vh;
     width: 100%;
     background-color: #3aafa9ff;
     position: relative;
 }
 .AboutSec{
-    width: 50%;
+    width: 40%;
     float: left;
     height: 100%;
     position: relative;
